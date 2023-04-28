@@ -55,7 +55,7 @@ datetime.push(copy);
 //曜日によって使用するデータセットを変える
 var daytest = new Date();
 //var day_id = daytest.getDay();
-var day_id = 2;
+var day_id = 4;
 var img_dataset =["image0","image1","image2","image3","image4"];
 var dataset_today = img_dataset[day_id-1];
 console.log(dataset_today);
